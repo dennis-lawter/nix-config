@@ -1,0 +1,37 @@
+{
+	"name": "ethereal",
+	"displayName": "ethereal",
+	"description": "A beautiful dark theme for Visual Studio Code.",
+	"publisher": "brandonkong",
+	"repository": "https://github.com/brandon-kong/ethereal",
+	"icon": "assets/ethereal.png",
+	"version": "0.1.2",
+	"engines": {
+		"vscode": "^1.87.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ethereal",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ethereal-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1cf21123-f4e0-4ec5-b0b8-c042c62920e3",
+		"publisherId": "d4bd80ff-07ec-478a-a324-1937f37471c2",
+		"publisherDisplayName": "Brandon Kong",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1726363955753,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
