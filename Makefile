@@ -1,4 +1,6 @@
-build: confirmroot dotfiles
+build: submodules confirmroot dotfiles nixbuild
+
+nixbuild:
 	nixos-rebuild -I nixos-config=cfg/configuration.nix switch
 
 dotfiles: confirmroot
@@ -10,3 +12,6 @@ confirmroot:
 		echo "Please run as root"; \
 		exit 1;\
 	fi
+
+submodules:
+	git submodule update --init --recursive
