@@ -19,6 +19,7 @@
       pavucontrol
       fastfetch
       htop
+      tealdeer
       #smbnetfs
     ];
   };

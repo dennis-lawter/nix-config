@@ -1,0 +1,3 @@
+[submodule "dotfiles/bytomancer/powerlevel10k"]
+	path = dotfiles/bytomancer/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
