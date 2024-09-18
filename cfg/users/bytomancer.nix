@@ -20,6 +20,9 @@
       fastfetch
       htop
       tealdeer
+      go
+      python3
+      rustup
       #smbnetfs
     ];
   };
