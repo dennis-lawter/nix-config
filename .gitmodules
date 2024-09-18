@@ -1,3 +1,6 @@
 [submodule "dotfiles/bytomancer/powerlevel10k"]
 	path = dotfiles/bytomancer/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "dotfiles/bytomancer/.oh-my-zsh"]
+	path = dotfiles/bytomancer/.oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
