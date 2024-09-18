@@ -7,5 +7,8 @@
     blueman
     udisks
     udiskie
+    gnome.gnome-disk-utility
+    udevil
+    gvfs
   ];
 }
