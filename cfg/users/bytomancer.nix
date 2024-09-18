@@ -20,6 +20,7 @@
       fastfetch
       htop
       tealdeer
+      killall
       go
       python3
       rustup

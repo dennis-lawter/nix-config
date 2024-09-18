@@ -46,6 +46,7 @@ exec --no-startup-id udiskie
 
 # Set wallpaper
 exec --no-startup-id xwinwrap -g 3840x2160 -nf -ni -ov -- mpv -wid WID /home/bytomancer/wallpapers/honeypie.mp4 --no-audio --loop
+bindsym $mod+b exec xwinwrap -g 3840x2160 -nf -ni -ov -- mpv -wid WID /home/bytomancer/wallpapers/honeypie.mp4 --no-audio --loop
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
