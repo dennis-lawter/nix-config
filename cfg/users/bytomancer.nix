@@ -9,7 +9,7 @@
   users.users.bytomancer = {
     isNormalUser = true;
     description = "Bytomancer";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       alacritty
       neovim

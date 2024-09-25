@@ -90,6 +90,8 @@
   services.udisks2.enable = true;
   services.devmon.enable = true;
 
+  virtualisation.docker.enable = true;
+
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
