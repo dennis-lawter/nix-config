@@ -40,7 +40,7 @@ exec --no-startup-id picom
 
 # For gpd pocket2
 exec --no-startup-id xinput set-prop "pointer:Goodix Capacitive TouchScreen" "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
-exec --no-startup-id feh --bg-center ~/wallpaper/rust_rainbow.png
+exec --no-startup-id feh --bg-fill ~/wallpapers/nix.png
 
 # Setup default from arandr
 exec --no-startup-id ~/.screenlayout/default.sh
@@ -48,7 +48,7 @@ exec --no-startup-id ~/.screenlayout/default.sh
 # exec --no-startup-id udiskie
 
 # Set wallpaper
-exec --no-startup-id xwinwrap -g 3840x2160 -nf -ni -ov -- mpv -wid WID /home/bytomancer/wallpapers/honeypie.mp4 --no-audio --loop
+# exec --no-startup-id xwinwrap -g 3840x2160 -nf -ni -ov -- mpv -wid WID /home/bytomancer/wallpapers/honeypie.mp4 --no-audio --loop
 bindsym $mod+b exec xwinwrap -g 3840x2160 -nf -ni -ov -- mpv -wid WID /home/bytomancer/wallpapers/honeypie.mp4 --no-audio --loop
 
 bindsym $mod+Ctrl+greater move workspace to output up

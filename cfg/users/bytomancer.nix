@@ -33,9 +33,10 @@
       go
       python3
       rustup
+      pkg-config
+      alsaLib
       godot_4
       xinput_calibrator
-      alsa-lib
       gnome.gnome-font-viewer
       fio
     ];

@@ -1,6 +1,6 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "ethereal",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Zacks Contrast (rainglow)",
     "editor.fontFamily": "'DankMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
@@ -8,9 +8,11 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "'DankMono Nerd Font', 'JetBrains Mono NFM', 'monospace', monospace",
     "terminal.integrated.fontSize": 16,
-    "glassit.alpha": 240,
+    "glassit.alpha": 210,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "explorer.compactFolders": false,
-    "workbench.tree.indent": 16
+    "workbench.tree.indent": 16,
+    "window.zoomLevel": 3,
+    "workbench.productIconTheme": "bongocat",
 }
