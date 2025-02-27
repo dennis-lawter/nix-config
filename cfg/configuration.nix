@@ -82,6 +82,12 @@
     variant = "";
   };
 
+  # via support
+  services.udev.packages = with pkgs; [
+    vial
+    via
+  ];
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
